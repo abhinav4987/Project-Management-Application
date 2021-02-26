@@ -1,6 +1,6 @@
 import './App.css';
 import {Switch, Route} from 'react-router-dom';
-
+import LoginNSignup  from './components/LoginNSignup';
 function App() {
   return (
     <div className="App">
@@ -11,7 +11,6 @@ function App() {
         <Route path="/dashboard"></Route>
         <Route> </Route>
       </Switch>
-      <h1>Hello World</h1>
     </div>
   );
 }

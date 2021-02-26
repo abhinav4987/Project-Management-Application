@@ -1,0 +1,77 @@
+.main-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.halves {
+    display: flex;
+    flex:6;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 50vh;
+    padding: 20px;
+    margin: 0;
+}
+
+.teamwork-icon {
+    max-width: 300px;
+    max-height: 500px;
+    object-fit: contain;
+    margin-top: 20px;
+    transform-origin:center;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.bounce-2 {
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce-2 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}   
+
+.teamwork-title {
+    color: aquamarine;
+    font-size: 40px;
+}
+
+.teamwork-desc {
+    font-weight: 100;
+    font-size:20px;
+    text-align: center;
+}
+
+.formSection {
+    min-width: 400px;
+}
+
+.tab-options {
+    min-width: 400px;
+}
+
+.tab-content {
+    min-width: 400px;
+}
+.tabularView {
+    border-radius: 20px;
+    padding: 20px;
+    border: 0.03px solid rgba(158, 158, 158, 0.336);
+    min-width:500px;
+    height: 450px;
+}

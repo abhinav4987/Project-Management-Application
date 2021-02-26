@@ -1,0 +1,11 @@
+.social-icon {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 200px; */
+}

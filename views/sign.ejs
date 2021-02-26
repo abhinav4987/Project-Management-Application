@@ -1,0 +1,21 @@
+<p>SIGN UP FORM </p>
+<form action="/create" method="POST">
+<input name="name" placeholder="name">
+<input name="phone" placeholder="mobile">
+<% if(err.search("email")!=-1) { %>   
+<%= err.substring(31,50)%>
+<% if(err.length> 51) { %>
+    <%=  err.substring(61) %>
+<%}%>
+<% } %>
+<input name="email" placeholder="email">
+<% if(err.search("email")==-1 && err.search("password")!=-1) { %>
+    <%= err.substring(33) %>
+    <% } %>
+    
+<input name="password" placeholder="password">
+<% if(err =="Email exsist") { %>
+<%= err %>
+<% } %>
+<button type="submit">SUMBMIT</button>
+</form>

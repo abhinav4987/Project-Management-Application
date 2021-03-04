@@ -19,7 +19,7 @@ function SignupForm() {
                 <div className="form-group mt-2">
                     <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Email"></input>
                 </div>
-                <button type="submit" className=" form-group form-control btn btn-success mt-4">Sign in</button>
+                <button type="submit" className=" form-group form-control btn btn-dark mt-4">Sign in</button>
                 <hr />
                 <button className=" btn btn-danger g-button social-button form-group form-control" href="#">
                     <i className="fab fa-google-plus social-icon m-2 mt-0 mb-0" style={{ color: "Tomato" }}></i><span className="">Sign up with Google</span> 
